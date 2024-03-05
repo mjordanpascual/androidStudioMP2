@@ -9,8 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class SecondActivity extends AppCompatActivity {
-
+public class SecondActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     BottomNavigationView bottomNavigationView;
 
     @SuppressLint("MissingInflatedId")
@@ -20,7 +19,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.bottomnav_layout);
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
-        bottomNavigationView.setOnNavigationItemSelectedListener((BottomNavigationView.OnNavigationItemSelectedListener) this);
+        bottomNavigationView.setOnNavigationItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.flFragment);
 
     }
