@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MahineProblem2</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint_username">Enter Username</string>
+    <string name="hint_password">Enter Password</string>
+
+    <string name="second_activity">Second Intent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
